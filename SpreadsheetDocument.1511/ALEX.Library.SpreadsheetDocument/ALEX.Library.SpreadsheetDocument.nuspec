@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>ALEX.Win32.PowerManagement</id>
+    <version>0.1.7</version>
+    <title>ALEX Win32 Power Management .net wrapper</title>
+    <authors>Alexander Witteveen</authors>
+    <owners>Alexander Witteveen</owners>
+    <summary>Personal .net wrapper for Win32 Power Management methods</summary>
+    <licenseUrl>https://raw.githubusercontent.com/AlexWitteveen/Win32-Wrapper/master/LICENSE</licenseUrl>
+    <projectUrl>https://github.com/AlexWitteveen/Win32-Wrapper.git</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/AlexWitteveen/Win32-Wrapper/master/ALEX.Win32/Shared/Logo.32x32.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Personal .net wrapper for Win32 Power Management methods</description>
+    <releaseNotes>Initial release.</releaseNotes>
+    <copyright>Public Domain</copyright>
+    <tags>Win32 PInvoke dotNet PowerManagement</tags>
+  </metadata>
+  <files>
+    <!-- Dot Net 4.6 -->
+    <file src="DLL.NET46\bin\Release\*.dll" target="lib\net46"/>
+    <file src="DLL.NET46\bin\Release\*.pdb" target="lib\net46"/>
+    <!-- UAP 10.0 -->
+    <file src="DLL.UAP100\bin\Release\*.*" target="lib\uap10.0"/>
+    <file src="DLL.UAP100\Properties\*.rd.xml" target="lib\uap10.0\ALEX.Win32.PowerManagement\Properties"/>
+  </files>
+</package>
+
+<!--
+  http://docs.nuget.org/Create/NuSpec-Reference
+-->
